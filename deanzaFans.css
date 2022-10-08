@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px; /*20 pixel space from the left side of the website*/
+    
+}
+nav{
+    flex: 1;
+    text-align: right; /*aligns the text to the right side*/
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none; /*removes bullet points*/
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px; /*makes the tag horizontal*/
+}
+a{
+    text-decoration: none;
+    color: #000000; /*changes color of the text*/
+}
+p{
+    color: #000000; /*changes the color of the p tag making whatever                     paragraphs we write the same color of the a tag*/
+}
+.container{
+    max-width: 1300px; /*won't go more than 1300 pixels*/
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 20px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#ddd,#850202);
+}
+.header .row{
+    margin-top: 70px;   
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 250px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #2198D3;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+    
+}
+.rating .fa{
+    color: #2198D3;
+}
+
+.col-4:hover{
+    transform: translateY(-5px)
+}
+
+.offer{
+    background: radial-gradient(#aaa,#bbd8d8);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
