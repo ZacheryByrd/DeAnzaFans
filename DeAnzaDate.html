@@ -70,33 +70,51 @@
         <div class = "row">
             <div class = "col-4">
             <img src = "DeAnzaFans_Images/spikeball.png">
-                <button type="button" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">Spike Ball</button>
-                <p>Extremely fun, fast paced, game thats great for meeting new people! </p>
+                <button onclick = "button1()" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">Spike Ball</button>
+                <p id = "test1"> <strong> Click the button to add Spike Ball as an Event <br> <br>  </strong> Extremely fun, fast paced, game thats great for meeting new people! </strong>
+            </p>
+                <script>
+                    function button1(){
+                        document.getElementById("test1").innerHTML= "You've added Spike Ball as an Event";
+                    }
+                </script>
             </div>
             
             <div class = "col-4">
             <img src = "DeAnzaFans_Images/football.png">
-                <button type="button" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">Football Game!</button>
-            <div class= "rating">
-                </div>
-                <p>Come support De Anza's Foot Ball Team and meet new people!</p>
+              <button onclick = "button2()" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">FootBall Game</button>
+                <p id = "test2"> <strong> Click the button to add Football as an Event <br> <br> </strong> Come support De Anza's Foot Ball Team and meet new people!</strong></p>
+                <script>
+                    function button2(){
+                        document.getElementById("test2").innerHTML= "You've added Football Game as an Event";
+                    }
+                </script>
             </div>
             
             <div class = "col-4">
             <img src = "DeAnzaFans_Images/chess.png">
-                <button type="button" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">Chess Club!</button>
-            <div class= "rating">
+                <button onclick = "button3()" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">Chess Club!</button>
+                <p id = "test3"> <strong> Click the button to add Chess Club as an Event <br> <br>  </strong> Interested in Chess or looking for some friends? Chess Club is open to beginners and advanced chess players! </strong>
+            </p>
+                <script>
+                    function button3(){
+                        document.getElementById("test3").innerHTML= "You've added Chess Club as an Event";
+                    }
+                </script>
+                
                 </div>
-                <p>Interested in Chess or looking for some friends? Chess Club is open to beginners and advanced chess players!</p>
             </div>
             
             <div class = "col-4">
             <img src = "DeAnzaFans_Images/supersmash.png">
-                <button type="button" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">Super Smash Club</button>
-            <div class= "rating">   
-   
-                </div>
-                <p>Interested in playing smash and meeting new people? SuperSmash Club is the place for you!</p>
+                <button onclick = "button4()" style="font-weight:bold; background-color: #850202; border-color: antiquewhite; color: white">Super Smash Club</button>
+                <p id = "test4"> <strong> Click the button to add Super Smash Club as an Event <br> <br>  </strong> Interested in playing smash and meeting new people? SuperSmash Club is the place for you!</strong>
+            </p>
+                <script>
+                    function button4(){
+                        document.getElementById("test4").innerHTML= "You've added Super Smash Club as an Event";
+                    }
+                </script>
             </div>
         </div>
         
